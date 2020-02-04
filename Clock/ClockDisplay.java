@@ -2,7 +2,7 @@ public class ClockDisplay {
     public static void main(String [] args){
 
         //Create some clocks and print their times
-        Clock c1 = new Clock(14,22);
+        Clock c1 = new Clock(23,59);
         System.out.println("Current Time: "+ c1);
 
         while(true) {
